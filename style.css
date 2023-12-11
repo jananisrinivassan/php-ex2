@@ -1,0 +1,32 @@
+/* Improved styling for the table */
+body {
+    font-family: Arial, sans-serif; /* Change the font family for the entire page */
+}
+
+.house-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif; /* Change the font for the table */
+}
+
+.house-table th {
+    padding: 10px; /* Add padding to table headers */
+    background-color: #f2f2f2;
+    font-weight: none;
+    color: #333333;
+}
+
+.house-table td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.house-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.house-table tr:hover {
+    background-color: #f1f1f1;
+}
